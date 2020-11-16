@@ -162,7 +162,4 @@ private:
 	uint8_t _backlightval;
 };
 
-// Set the LCD address to 0x27 for a 16 chars and 2 line display
-extern LiquidCrystal_I2C lcd(0x27, 20, 4);
-
 #endif // FDB_LIQUID_CRYSTAL_I2C_H
